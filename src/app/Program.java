@@ -20,7 +20,7 @@ public class Program {
 		  Double height = sc.nextDouble();
 		  Calculation calculation = new Calculation(weight,height);
 		  calculation.toString();
-		  System.out.println("do you want to continue?");
+		  System.out.println("do you want to continue?(y/n)");
 		  q = sc.next().charAt(0);
 		  
 		  
